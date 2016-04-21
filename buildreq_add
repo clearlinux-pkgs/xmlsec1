@@ -4,3 +4,4 @@ libgcrypt-dev
 nspr-dev
 gnutls-dev
 nss-dev
+openssl-dev

@@ -4,7 +4,7 @@
 #
 Name     : xmlsec1
 Version  : 1.2.22
-Release  : 7
+Release  : 8
 URL      : http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.22.tar.gz
 Source0  : http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.22.tar.gz
 Summary  : Library providing support for "XML Signature" and "XML Encryption" standards
@@ -18,6 +18,7 @@ BuildRequires : libgcrypt-dev
 BuildRequires : libgpg-error-dev
 BuildRequires : nspr-dev
 BuildRequires : nss-dev
+BuildRequires : openssl-dev
 BuildRequires : pkgconfig(gnutls)
 BuildRequires : pkgconfig(libxml-2.0)
 BuildRequires : pkgconfig(libxslt)
