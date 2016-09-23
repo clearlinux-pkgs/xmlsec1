@@ -4,7 +4,7 @@
 #
 Name     : xmlsec1
 Version  : 1.2.22
-Release  : 10
+Release  : 11
 URL      : http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.22.tar.gz
 Source0  : http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.22.tar.gz
 Summary  : Library providing support for "XML Signature" and "XML Encryption" standards
