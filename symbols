@@ -491,6 +491,7 @@ libxmlsec1.so.1:xmlSecEncCtxInitialize
 libxmlsec1.so.1:xmlSecEncCtxReset
 libxmlsec1.so.1:xmlSecEncCtxUriEncrypt
 libxmlsec1.so.1:xmlSecEncCtxXmlEncrypt
+libxmlsec1.so.1:xmlSecEnsureEmptyChild
 libxmlsec1.so.1:xmlSecError
 libxmlsec1.so.1:xmlSecErrorsDefaultCallback
 libxmlsec1.so.1:xmlSecErrorsDefaultCallbackEnableOutput
@@ -502,6 +503,7 @@ libxmlsec1.so.1:xmlSecErrorsShutdown
 libxmlsec1.so.1:xmlSecFindChild
 libxmlsec1.so.1:xmlSecFindNode
 libxmlsec1.so.1:xmlSecFindParent
+libxmlsec1.so.1:xmlSecFindSibling
 libxmlsec1.so.1:xmlSecGenerateAndAddID
 libxmlsec1.so.1:xmlSecGenerateID
 libxmlsec1.so.1:xmlSecGetDefaultCrypto
