@@ -4,7 +4,7 @@
 #
 Name     : xmlsec1
 Version  : 1.2.23
-Release  : 13
+Release  : 14
 URL      : http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.23.tar.gz
 Source0  : http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.23.tar.gz
 Summary  : Library providing support for "XML Signature" and "XML Encryption" standards
@@ -24,6 +24,7 @@ BuildRequires : pkgconfig(libxml-2.0)
 BuildRequires : pkgconfig(libxslt)
 BuildRequires : pkgconfig(nspr)
 BuildRequires : pkgconfig(openssl)
+BuildRequires : xz-dev
 
 %description
 XML Security Library is a C library based on LibXML2  and OpenSSL. 
@@ -70,6 +71,7 @@ lib components for the xmlsec1 package.
 
 %build
 export LANG=C
+export SOURCE_DATE_EPOCH=1482950684
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
@@ -144,8 +146,16 @@ rm -rf %{buildroot}
 /usr/include/xmlsec1/xmlsec/xmlenc.h
 /usr/include/xmlsec1/xmlsec/xmlsec.h
 /usr/include/xmlsec1/xmlsec/xmltree.h
-/usr/lib64/*.so
-/usr/lib64/pkgconfig/*.pc
+/usr/lib64/libxmlsec1-gcrypt.so
+/usr/lib64/libxmlsec1-gnutls.so
+/usr/lib64/libxmlsec1-nss.so
+/usr/lib64/libxmlsec1-openssl.so
+/usr/lib64/libxmlsec1.so
+/usr/lib64/pkgconfig/xmlsec1-gcrypt.pc
+/usr/lib64/pkgconfig/xmlsec1-gnutls.pc
+/usr/lib64/pkgconfig/xmlsec1-nss.pc
+/usr/lib64/pkgconfig/xmlsec1-openssl.pc
+/usr/lib64/pkgconfig/xmlsec1.pc
 /usr/share/aclocal/*.m4
 
 %files doc
@@ -155,4 +165,13 @@ rm -rf %{buildroot}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/*.so.*
+/usr/lib64/libxmlsec1-gcrypt.so.1
+/usr/lib64/libxmlsec1-gcrypt.so.1.2.23
+/usr/lib64/libxmlsec1-gnutls.so.1
+/usr/lib64/libxmlsec1-gnutls.so.1.2.23
+/usr/lib64/libxmlsec1-nss.so.1
+/usr/lib64/libxmlsec1-nss.so.1.2.23
+/usr/lib64/libxmlsec1-openssl.so.1
+/usr/lib64/libxmlsec1-openssl.so.1.2.23
+/usr/lib64/libxmlsec1.so.1
+/usr/lib64/libxmlsec1.so.1.2.23

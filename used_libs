@@ -5,6 +5,7 @@ libgcrypt.so.20
 libgnutls.so.30
 libgpg-error.so.0
 libltdl.so.7
+liblzma.so.5
 libm.so.6
 libnspr4.so
 libnss3.so
