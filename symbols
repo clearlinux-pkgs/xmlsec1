@@ -199,6 +199,7 @@ libxmlsec1-nss.so.1:xmlSecNssKeyDataAesSet
 libxmlsec1-nss.so.1:xmlSecNssKeyDataDesGetKlass
 libxmlsec1-nss.so.1:xmlSecNssKeyDataDesSet
 libxmlsec1-nss.so.1:xmlSecNssKeyDataDsaGetKlass
+libxmlsec1-nss.so.1:xmlSecNssKeyDataEcdsaGetKlass
 libxmlsec1-nss.so.1:xmlSecNssKeyDataHmacGetKlass
 libxmlsec1-nss.so.1:xmlSecNssKeyDataHmacSet
 libxmlsec1-nss.so.1:xmlSecNssKeyDataRawX509CertGetKlass
@@ -230,6 +231,9 @@ libxmlsec1-nss.so.1:xmlSecNssTransformAes192CbcGetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformAes256CbcGetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformDes3CbcGetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformDsaSha1GetKlass
+libxmlsec1-nss.so.1:xmlSecNssTransformEcdsaSha1GetKlass
+libxmlsec1-nss.so.1:xmlSecNssTransformEcdsaSha256GetKlass
+libxmlsec1-nss.so.1:xmlSecNssTransformEcdsaSha512GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformHmacMd5GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformHmacRipemd160GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformHmacSha1GetKlass
@@ -696,6 +700,7 @@ libxmlsec1.so.1:xmlSecReplaceNode
 libxmlsec1.so.1:xmlSecReplaceNodeAndReturn
 libxmlsec1.so.1:xmlSecReplaceNodeBuffer
 libxmlsec1.so.1:xmlSecReplaceNodeBufferAndReturn
+libxmlsec1.so.1:xmlSecSetExternalEntityLoader
 libxmlsec1.so.1:xmlSecShutdown
 libxmlsec1.so.1:xmlSecSimpleKeysStoreAdoptKey
 libxmlsec1.so.1:xmlSecSimpleKeysStoreGetKeys
