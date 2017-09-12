@@ -1,0 +1,36 @@
+Configure miss: development environment
+Configure miss: man pages build
+Configure miss: docs build
+Configure miss: openssl >= 1.1.0
+Configure miss: seamonkey-nspr >= 4.4.1 seamonkey-nss >= 1.0
+Configure miss: mozilla-nspr >= 1.4 mozilla-nss >= 1.4
+Configure miss: xulrunner-nspr >= 4.4.1 xulrunner-nss >= 3.11.1
+Configure miss: gcrypt >= 1.4.0
+Configure miss: libgcrypt >= 1.4.0
+Configure miss: libgcrypt11 >= 1.4.0
+Configure miss: mscrypto libraries
+Configure miss: GOST support
+Configure miss: EXPERMIENTAL GOST2012 support
+Configure miss: soap support
+Configure miss: static linking
+Configure miss: debugging
+Configure miss: profiling
+Configure miss: pedantic
+Configure miss: development environment
+Configure miss: man pages build
+Configure miss: docs build
+Configure miss: openssl >= 1.1.0
+Configure miss: seamonkey-nspr >= 4.4.1 seamonkey-nss >= 1.0
+Configure miss: mozilla-nspr >= 1.4 mozilla-nss >= 1.4
+Configure miss: xulrunner-nspr >= 4.4.1 xulrunner-nss >= 3.11.1
+Configure miss: gcrypt >= 1.4.0
+Configure miss: libgcrypt >= 1.4.0
+Configure miss: libgcrypt11 >= 1.4.0
+Configure miss: mscrypto libraries
+Configure miss: GOST support
+Configure miss: EXPERMIENTAL GOST2012 support
+Configure miss: soap support
+Configure miss: static linking
+Configure miss: debugging
+Configure miss: profiling
+Configure miss: pedantic
