@@ -4,7 +4,7 @@
 #
 Name     : xmlsec1
 Version  : 1.2.26
-Release  : 21
+Release  : 22
 URL      : https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_26.tar.gz
 Source0  : https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_26.tar.gz
 Summary  : XML Security Library implements XML Signature and XML Encryption standards
