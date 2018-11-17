@@ -4,15 +4,16 @@
 #
 Name     : xmlsec1
 Version  : 1.2.26
-Release  : 22
+Release  : 23
 URL      : https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_26.tar.gz
 Source0  : https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_26.tar.gz
 Summary  : XML Security Library implements XML Signature and XML Encryption standards
 Group    : Development/Tools
 License  : MIT
-Requires: xmlsec1-bin
-Requires: xmlsec1-lib
-Requires: xmlsec1-man
+Requires: xmlsec1-bin = %{version}-%{release}
+Requires: xmlsec1-lib = %{version}-%{release}
+Requires: xmlsec1-license = %{version}-%{release}
+Requires: xmlsec1-man = %{version}-%{release}
 BuildRequires : gnutls-dev
 BuildRequires : gtk-doc
 BuildRequires : help2man
@@ -36,7 +37,8 @@ standards:
 %package bin
 Summary: bin components for the xmlsec1 package.
 Group: Binaries
-Requires: xmlsec1-man
+Requires: xmlsec1-license = %{version}-%{release}
+Requires: xmlsec1-man = %{version}-%{release}
 
 %description bin
 bin components for the xmlsec1 package.
@@ -45,9 +47,9 @@ bin components for the xmlsec1 package.
 %package dev
 Summary: dev components for the xmlsec1 package.
 Group: Development
-Requires: xmlsec1-lib
-Requires: xmlsec1-bin
-Provides: xmlsec1-devel
+Requires: xmlsec1-lib = %{version}-%{release}
+Requires: xmlsec1-bin = %{version}-%{release}
+Provides: xmlsec1-devel = %{version}-%{release}
 
 %description dev
 dev components for the xmlsec1 package.
@@ -56,7 +58,7 @@ dev components for the xmlsec1 package.
 %package doc
 Summary: doc components for the xmlsec1 package.
 Group: Documentation
-Requires: xmlsec1-man
+Requires: xmlsec1-man = %{version}-%{release}
 
 %description doc
 doc components for the xmlsec1 package.
@@ -65,9 +67,18 @@ doc components for the xmlsec1 package.
 %package lib
 Summary: lib components for the xmlsec1 package.
 Group: Libraries
+Requires: xmlsec1-license = %{version}-%{release}
 
 %description lib
 lib components for the xmlsec1 package.
+
+
+%package license
+Summary: license components for the xmlsec1 package.
+Group: Default
+
+%description license
+license components for the xmlsec1 package.
 
 
 %package man
@@ -86,7 +97,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1528377977
+export SOURCE_DATE_EPOCH=1542434755
 %autogen --disable-static
 make  %{?_smp_mflags}
 
@@ -98,8 +109,10 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1528377977
+export SOURCE_DATE_EPOCH=1542434755
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/package-licenses/xmlsec1
+cp Copyright %{buildroot}/usr/share/package-licenses/xmlsec1/Copyright
 %make_install
 
 %files
@@ -163,7 +176,7 @@ rm -rf %{buildroot}
 /usr/share/aclocal/*.m4
 
 %files doc
-%defattr(-,root,root,-)
+%defattr(0644,root,root,0755)
 %doc /usr/share/doc/xmlsec1/*
 
 %files lib
@@ -175,7 +188,11 @@ rm -rf %{buildroot}
 /usr/lib64/libxmlsec1.so.1
 /usr/lib64/libxmlsec1.so.1.2.26
 
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/xmlsec1/Copyright
+
 %files man
-%defattr(-,root,root,-)
+%defattr(0644,root,root,0755)
 /usr/share/man/man1/xmlsec1-config.1
 /usr/share/man/man1/xmlsec1.1

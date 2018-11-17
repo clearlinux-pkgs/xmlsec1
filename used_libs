@@ -1,5 +1,5 @@
 libc.so.6
-libcrypto.so.1.0.0
+libcrypto.so.1.1
 libltdl.so.7
 libm.so.6
 libnspr4.so
@@ -8,7 +8,7 @@ libnssutil3.so
 libplc4.so
 libplds4.so
 libsmime3.so
-libssl.so.1.0.0
+libssl.so.1.1
 libssl3.so
 libxml2.so.2
 libxslt.so.1
