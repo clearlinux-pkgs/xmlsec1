@@ -5,3 +5,4 @@ nspr-dev
 gnutls-dev
 nss-dev
 openssl-dev
+nss-bin
