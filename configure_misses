@@ -9,7 +9,6 @@ Configure miss: gcrypt >= 1.4.0
 Configure miss: libgcrypt20 >= 1.4.0
 Configure miss: libgcrypt11 >= 1.4.0
 Configure miss: libgcrypt >= 1.4.0
-Configure miss: libgcrypt library >= 1.4.0
 Configure miss: mscrypto
 Configure miss: mscng
 Configure miss: man2html
@@ -23,6 +22,5 @@ Configure miss: gcrypt >= 1.4.0
 Configure miss: libgcrypt20 >= 1.4.0
 Configure miss: libgcrypt11 >= 1.4.0
 Configure miss: libgcrypt >= 1.4.0
-Configure miss: libgcrypt library >= 1.4.0
 Configure miss: mscrypto
 Configure miss: mscng
