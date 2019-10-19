@@ -2,6 +2,7 @@ libc.so.6
 libcrypto.so.1.1
 libgcrypt.so.20
 libgnutls.so.30
+libgpg-error.so.0
 libltdl.so.7
 libm.so.6
 libnspr4.so
