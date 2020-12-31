@@ -237,7 +237,6 @@ libxmlsec1-nss.so.1:xmlSecNssTransformEcdsaSha224GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformEcdsaSha256GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformEcdsaSha384GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformEcdsaSha512GetKlass
-libxmlsec1-nss.so.1:xmlSecNssTransformHmacMd5GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformHmacRipemd160GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformHmacSha1GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformHmacSha224GetKlass
@@ -248,8 +247,6 @@ libxmlsec1-nss.so.1:xmlSecNssTransformKWAes128GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformKWAes192GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformKWAes256GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformKWDes3GetKlass
-libxmlsec1-nss.so.1:xmlSecNssTransformMd5GetKlass
-libxmlsec1-nss.so.1:xmlSecNssTransformRsaMd5GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformRsaPkcs1GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformRsaSha1GetKlass
 libxmlsec1-nss.so.1:xmlSecNssTransformRsaSha224GetKlass

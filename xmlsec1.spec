@@ -4,7 +4,7 @@
 #
 Name     : xmlsec1
 Version  : 1.2.31
-Release  : 27
+Release  : 28
 URL      : https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_31/xmlsec-1.2.31.tar.gz
 Source0  : https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_31/xmlsec-1.2.31.tar.gz
 Summary  : XML Security Library implements XML Signature and XML Encryption standards
@@ -28,6 +28,7 @@ BuildRequires : pkgconfig(libxslt)
 BuildRequires : pkgconfig(nspr)
 BuildRequires : pkgconfig(nss)
 BuildRequires : pkgconfig(openssl)
+Patch1: 0001-Remove-MD5-for-NSS-3.59-and-above-enable-nss-test-on.patch
 
 %description
 XMLSec Library
@@ -93,13 +94,14 @@ man components for the xmlsec1 package.
 %prep
 %setup -q -n xmlsec-xmlsec-1_2_31
 cd %{_builddir}/xmlsec-xmlsec-1_2_31
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1604945309
+export SOURCE_DATE_EPOCH=1609386318
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -119,7 +121,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1604945309
+export SOURCE_DATE_EPOCH=1609386318
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xmlsec1
 cp %{_builddir}/xmlsec-xmlsec-1_2_31/Copyright %{buildroot}/usr/share/package-licenses/xmlsec1/f75f047fc74ec748a8b328071a567b28ee1113e3
