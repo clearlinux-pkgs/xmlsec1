@@ -1,4 +1,4 @@
-From 39e4672d86ce82075d97af98f0a13ea41c83435e Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Karthik Prabhu Vinod <karthik.prabhu.vinod@intel.com>
 Date: Fri, 8 Jan 2021 16:37:28 -0800
 Subject: [PATCH] Add Requires to xmlsec1
@@ -53,6 +53,3 @@ index af3ae29..b403002 100644
  Cflags: @XMLSEC_OPENSSL_CFLAGS@
  Cflags.private: -DXMLSEC_STATIC
  Libs: @XMLSEC_OPENSSL_LIBS@
--- 
-2.30.0
-

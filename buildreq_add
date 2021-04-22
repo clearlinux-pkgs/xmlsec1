@@ -1,8 +1,8 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+gnutls-dev
 libgcrypt-dev
 nspr-dev
-gnutls-dev
+nss-bin
 nss-dev
 openssl-dev
-nss-bin

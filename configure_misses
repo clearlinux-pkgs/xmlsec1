@@ -1,24 +1,24 @@
-Configure miss: man2html
-Configure miss: seamonkey-nspr >= 4.4.1
-Configure miss: mozilla-nspr >= 1.4
-Configure miss: xulrunner-nspr >= 4.4.1
-Configure miss: seamonkey-nss >= 1.0
-Configure miss: mozilla-nss >= 1.4
-Configure miss: xulrunner-nss >= 3.11.1
 Configure miss: gcrypt >= 1.4.0
-Configure miss: libgcrypt20 >= 1.4.0
-Configure miss: libgcrypt11 >= 1.4.0
-Configure miss: mscrypto
-Configure miss: mscng
-Configure miss: man2html
-Configure miss: seamonkey-nspr >= 4.4.1
-Configure miss: mozilla-nspr >= 1.4
-Configure miss: xulrunner-nspr >= 4.4.1
-Configure miss: seamonkey-nss >= 1.0
-Configure miss: mozilla-nss >= 1.4
-Configure miss: xulrunner-nss >= 3.11.1
 Configure miss: gcrypt >= 1.4.0
-Configure miss: libgcrypt20 >= 1.4.0
 Configure miss: libgcrypt11 >= 1.4.0
-Configure miss: mscrypto
+Configure miss: libgcrypt11 >= 1.4.0
+Configure miss: libgcrypt20 >= 1.4.0
+Configure miss: libgcrypt20 >= 1.4.0
+Configure miss: man2html
+Configure miss: man2html
+Configure miss: mozilla-nspr >= 1.4
+Configure miss: mozilla-nspr >= 1.4
+Configure miss: mozilla-nss >= 1.4
+Configure miss: mozilla-nss >= 1.4
 Configure miss: mscng
+Configure miss: mscng
+Configure miss: mscrypto
+Configure miss: mscrypto
+Configure miss: seamonkey-nspr >= 4.4.1
+Configure miss: seamonkey-nspr >= 4.4.1
+Configure miss: seamonkey-nss >= 1.0
+Configure miss: seamonkey-nss >= 1.0
+Configure miss: xulrunner-nspr >= 4.4.1
+Configure miss: xulrunner-nspr >= 4.4.1
+Configure miss: xulrunner-nss >= 3.11.1
+Configure miss: xulrunner-nss >= 3.11.1
