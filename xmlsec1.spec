@@ -4,7 +4,7 @@
 #
 Name     : xmlsec1
 Version  : 1.2.34
-Release  : 33
+Release  : 34
 URL      : https://github.com/lsh123/xmlsec/archive/refs/tags/xmlsec-1_2_34.tar.gz
 Source0  : https://github.com/lsh123/xmlsec/archive/refs/tags/xmlsec-1_2_34.tar.gz
 Summary  : XML Security Library implements XML Signature and XML Encryption standards
@@ -101,7 +101,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1651674219
+export SOURCE_DATE_EPOCH=1663080456
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -118,13 +118,13 @@ export LANG=C.UTF-8
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-make %{?_smp_mflags} check
+make %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1651674219
+export SOURCE_DATE_EPOCH=1663080456
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xmlsec1
-cp %{_builddir}/xmlsec-xmlsec-1_2_34/Copyright %{buildroot}/usr/share/package-licenses/xmlsec1/f75f047fc74ec748a8b328071a567b28ee1113e3
+cp %{_builddir}/xmlsec-xmlsec-1_2_34/Copyright %{buildroot}/usr/share/package-licenses/xmlsec1/f75f047fc74ec748a8b328071a567b28ee1113e3 || :
 %make_install
 
 %files
