@@ -10,17 +10,15 @@ Configure miss: mozilla-nspr >= 1.4
 Configure miss: mozilla-nspr >= 1.4
 Configure miss: mozilla-nss >= 1.4
 Configure miss: mozilla-nss >= 1.4
-Configure miss: mscng
-Configure miss: mscng
-Configure miss: mscrypto
-Configure miss: mscrypto
-Configure miss: seamonkey-nspr >= 4.4.1
-Configure miss: seamonkey-nspr >= 4.4.1
+Configure miss: seamonkey-nspr >= 4.25.0
+Configure miss: seamonkey-nspr >= 4.25.0
 Configure miss: seamonkey-nss >= 1.0
 Configure miss: seamonkey-nss >= 1.0
+Configure miss: using size_t
+Configure miss: using size_t
 Configure miss: x86_64-generic-linux-gnu-file
 Configure miss: x86_64-generic-linux-gnu-file
-Configure miss: xulrunner-nspr >= 4.4.1
-Configure miss: xulrunner-nspr >= 4.4.1
-Configure miss: xulrunner-nss >= 3.11.1
-Configure miss: xulrunner-nss >= 3.11.1
+Configure miss: xulrunner-nspr >= 4.25.0
+Configure miss: xulrunner-nspr >= 4.25.0
+Configure miss: xulrunner-nss >= 3.49
+Configure miss: xulrunner-nss >= 3.49
