@@ -1,5 +1,5 @@
 PKG_NAME := xmlsec1
-URL = https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_36/xmlsec-1.2.36.tar.gz
+URL = https://github.com/lsh123/xmlsec/archive/xmlsec-1_2_37/xmlsec-1.2.37.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
