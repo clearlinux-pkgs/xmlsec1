@@ -1,24 +1,44 @@
 Configure miss: gcrypt >= 1.4.0
 Configure miss: gcrypt >= 1.4.0
+Configure miss: gcrypt >= 1.4.0
+Configure miss: gcrypt >= 1.4.0
+Configure miss: libgcrypt11 >= 1.4.0
+Configure miss: libgcrypt11 >= 1.4.0
 Configure miss: libgcrypt11 >= 1.4.0
 Configure miss: libgcrypt11 >= 1.4.0
 Configure miss: libgcrypt20 >= 1.4.0
 Configure miss: libgcrypt20 >= 1.4.0
+Configure miss: libgcrypt20 >= 1.4.0
+Configure miss: libgcrypt20 >= 1.4.0
+Configure miss: man2html
+Configure miss: man2html
 Configure miss: man2html
 Configure miss: man2html
 Configure miss: mozilla-nspr >= 1.4
 Configure miss: mozilla-nspr >= 1.4
+Configure miss: mozilla-nspr >= 1.4
+Configure miss: mozilla-nspr >= 1.4
 Configure miss: mozilla-nss >= 1.4
 Configure miss: mozilla-nss >= 1.4
-Configure miss: seamonkey-nspr >= 4.25.0
-Configure miss: seamonkey-nspr >= 4.25.0
+Configure miss: mozilla-nss >= 1.4
+Configure miss: mozilla-nss >= 1.4
+Configure miss: seamonkey-nspr >= 4.18.0
+Configure miss: seamonkey-nspr >= 4.18.0
+Configure miss: seamonkey-nspr >= 4.18.0
+Configure miss: seamonkey-nspr >= 4.18.0
 Configure miss: seamonkey-nss >= 1.0
 Configure miss: seamonkey-nss >= 1.0
-Configure miss: using size_t
-Configure miss: using size_t
+Configure miss: seamonkey-nss >= 1.0
+Configure miss: seamonkey-nss >= 1.0
 Configure miss: x86_64-generic-linux-gnu-file
 Configure miss: x86_64-generic-linux-gnu-file
-Configure miss: xulrunner-nspr >= 4.25.0
-Configure miss: xulrunner-nspr >= 4.25.0
-Configure miss: xulrunner-nss >= 3.49
-Configure miss: xulrunner-nss >= 3.49
+Configure miss: x86_64-generic-linux-gnu-file
+Configure miss: x86_64-generic-linux-gnu-file
+Configure miss: xulrunner-nspr >= 4.18.0
+Configure miss: xulrunner-nspr >= 4.18.0
+Configure miss: xulrunner-nspr >= 4.18.0
+Configure miss: xulrunner-nspr >= 4.18.0
+Configure miss: xulrunner-nss >= 3.35
+Configure miss: xulrunner-nss >= 3.35
+Configure miss: xulrunner-nss >= 3.35
+Configure miss: xulrunner-nss >= 3.35
