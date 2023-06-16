@@ -5,7 +5,7 @@
 #
 Name     : xmlsec1
 Version  : 1.3.1
-Release  : 37
+Release  : 38
 URL      : https://github.com/lsh123/xmlsec/archive/xmlsec_1_3_1/xmlsec-1.3.1.tar.gz
 Source0  : https://github.com/lsh123/xmlsec/archive/xmlsec_1_3_1/xmlsec-1.3.1.tar.gz
 Summary  : XML Security Library implements XML Signature and XML Encryption standards
@@ -57,6 +57,7 @@ Requires: xmlsec1-lib = %{version}-%{release}
 Requires: xmlsec1-bin = %{version}-%{release}
 Provides: xmlsec1-devel = %{version}-%{release}
 Requires: xmlsec1 = %{version}-%{release}
+Requires: libtool-dev
 
 %description dev
 dev components for the xmlsec1 package.
@@ -109,7 +110,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1686786391
+export SOURCE_DATE_EPOCH=1686923176
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -140,7 +141,7 @@ cd ../buildavx2;
 make %{?_smp_mflags} check || : || :
 
 %install
-export SOURCE_DATE_EPOCH=1686786391
+export SOURCE_DATE_EPOCH=1686923176
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xmlsec1
 cp %{_builddir}/xmlsec-xmlsec_1_3_1/Copyright %{buildroot}/usr/share/package-licenses/xmlsec1/f75f047fc74ec748a8b328071a567b28ee1113e3 || :
