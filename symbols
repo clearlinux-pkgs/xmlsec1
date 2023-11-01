@@ -118,6 +118,10 @@ libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppPkcs12Load
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppPkcs12LoadMemory
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppShutdown
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAsymKeyDataCreate
+libxmlsec1-gnutls.so.1:xmlSecGnuTLSAsymKeyDataGetPrivateKey
+libxmlsec1-gnutls.so.1:xmlSecGnuTLSAsymKeyDataGetPublicKey
+libxmlsec1-gnutls.so.1:xmlSecGnuTLSAsymKeyDataGetSize
+libxmlsec1-gnutls.so.1:xmlSecGnuTLSAsymKeyDataGetType
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSDnAttrrsFind
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSDnAttrsDeinitialize
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSDnAttrsEqual
@@ -152,8 +156,10 @@ libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509AdoptCert
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509AdoptCrl
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509AdoptKeyCert
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetCert
+libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetCerts
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetCertsSize
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetCrl
+libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetCrls
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetCrlsSize
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetKeyCert
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataX509GetKlass
@@ -237,6 +243,7 @@ libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreFindCertByValue
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreFindCert_ex
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreGetKlass
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreVerify
+libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreVerifyKey
 libxmlsec1-nss.so.1:xmlSecCryptoGetFunctions_nss
 libxmlsec1-nss.so.1:xmlSecNssAppDefaultKeysMngrAdoptKey
 libxmlsec1-nss.so.1:xmlSecNssAppDefaultKeysMngrInit
@@ -283,8 +290,10 @@ libxmlsec1-nss.so.1:xmlSecNssKeyDataX509AdoptCert
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509AdoptCrl
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509AdoptKeyCert
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetCert
+libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetCerts
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetCertsSize
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetCrl
+libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetCrls
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetCrlsSize
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetKeyCert
 libxmlsec1-nss.so.1:xmlSecNssKeyDataX509GetKlass
@@ -345,6 +354,7 @@ libxmlsec1-nss.so.1:xmlSecNssTransformSha512GetKlass
 libxmlsec1-nss.so.1:xmlSecNssX509CertDerRead
 libxmlsec1-nss.so.1:xmlSecNssX509CertGetKey
 libxmlsec1-nss.so.1:xmlSecNssX509CertGetTime
+libxmlsec1-nss.so.1:xmlSecNssX509CertPemRead
 libxmlsec1-nss.so.1:xmlSecNssX509CrlDerRead
 libxmlsec1-nss.so.1:xmlSecNssX509CrlListAdoptCrl
 libxmlsec1-nss.so.1:xmlSecNssX509CrlListDestroy
@@ -362,6 +372,7 @@ libxmlsec1-nss.so.1:xmlSecNssX509StoreFindCertByValue
 libxmlsec1-nss.so.1:xmlSecNssX509StoreFindCert_ex
 libxmlsec1-nss.so.1:xmlSecNssX509StoreGetKlass
 libxmlsec1-nss.so.1:xmlSecNssX509StoreVerify
+libxmlsec1-nss.so.1:xmlSecNssX509StoreVerifyKey
 libxmlsec1-nss.so.1:xmlSecNsskeyDataEcGetKlass
 libxmlsec1-openssl.so.1:xmlSecCryptoGetFunctions_openssl
 libxmlsec1-openssl.so.1:xmlSecOpenSSLAppDefaultKeysMngrAdoptKey
