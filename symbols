@@ -8,7 +8,6 @@ libxmlsec1-gcrypt.so.1:xmlSecGCryptAppGetDefaultPwdCallback
 libxmlsec1-gcrypt.so.1:xmlSecGCryptAppInit
 libxmlsec1-gcrypt.so.1:xmlSecGCryptAppKeyCertLoad
 libxmlsec1-gcrypt.so.1:xmlSecGCryptAppKeyCertLoadMemory
-libxmlsec1-gcrypt.so.1:xmlSecGCryptAppKeyLoad
 libxmlsec1-gcrypt.so.1:xmlSecGCryptAppKeyLoadEx
 libxmlsec1-gcrypt.so.1:xmlSecGCryptAppKeyLoadMemory
 libxmlsec1-gcrypt.so.1:xmlSecGCryptAppKeysMngrCertLoad
@@ -32,11 +31,6 @@ libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcAdoptKey
 libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcAdoptKeyPair
 libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcGetPrivateKey
 libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcGetPublicKey
-libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcdsaAdoptKey
-libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcdsaAdoptKeyPair
-libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcdsaGetKlass
-libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcdsaGetPrivateKey
-libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataEcdsaGetPublicKey
 libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataHmacGetKlass
 libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataHmacSet
 libxmlsec1-gcrypt.so.1:xmlSecGCryptKeyDataRsaAdoptKey
@@ -107,7 +101,6 @@ libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppGetDefaultPwdCallback
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppInit
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppKeyCertLoad
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppKeyCertLoadMemory
-libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppKeyLoad
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppKeyLoadEx
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppKeyLoadMemory
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSAppKeysMngrCertLoad
@@ -142,7 +135,6 @@ libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataEcAdoptKey
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataEcGetKlass
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataEcGetPrivateKey
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataEcGetPublicKey
-libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataEdsaGetKlass
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataHmacGetKlass
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataHmacSet
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSKeyDataPbkdf2GetKlass
@@ -238,9 +230,7 @@ libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509FindKeyByValue
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509GetDigestFromAlgorithm
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreAdoptCert
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreAdoptCrl
-libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreFindCert
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreFindCertByValue
-libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreFindCert_ex
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreGetKlass
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreVerify
 libxmlsec1-gnutls.so.1:xmlSecGnuTLSX509StoreVerifyKey
@@ -256,7 +246,6 @@ libxmlsec1-nss.so.1:xmlSecNssAppKeyCertLoad
 libxmlsec1-nss.so.1:xmlSecNssAppKeyCertLoadMemory
 libxmlsec1-nss.so.1:xmlSecNssAppKeyCertLoadSECItem
 libxmlsec1-nss.so.1:xmlSecNssAppKeyFromCertLoadSECItem
-libxmlsec1-nss.so.1:xmlSecNssAppKeyLoad
 libxmlsec1-nss.so.1:xmlSecNssAppKeyLoadEx
 libxmlsec1-nss.so.1:xmlSecNssAppKeyLoadMemory
 libxmlsec1-nss.so.1:xmlSecNssAppKeyLoadSECItem
@@ -279,7 +268,6 @@ libxmlsec1-nss.so.1:xmlSecNssKeyDataDEREncodedKeyValueGetKlass
 libxmlsec1-nss.so.1:xmlSecNssKeyDataDesGetKlass
 libxmlsec1-nss.so.1:xmlSecNssKeyDataDesSet
 libxmlsec1-nss.so.1:xmlSecNssKeyDataDsaGetKlass
-libxmlsec1-nss.so.1:xmlSecNssKeyDataEcdsaGetKlass
 libxmlsec1-nss.so.1:xmlSecNssKeyDataHmacGetKlass
 libxmlsec1-nss.so.1:xmlSecNssKeyDataHmacSet
 libxmlsec1-nss.so.1:xmlSecNssKeyDataPbkdf2GetKlass
@@ -386,7 +374,6 @@ libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyCertLoad
 libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyCertLoadBIO
 libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyCertLoadMemory
 libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyFromCertLoadBIO
-libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyLoad
 libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyLoadBIO
 libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyLoadEx
 libxmlsec1-openssl.so.1:xmlSecOpenSSLAppKeyLoadMemory
@@ -430,9 +417,6 @@ libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataDsaGetKlass
 libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataEcAdoptEvp
 libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataEcGetEvp
 libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataEcGetKlass
-libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataEcdsaAdoptEvp
-libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataEcdsaGetEvp
-libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataEcdsaGetKlass
 libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataHmacGetKlass
 libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataHmacSet
 libxmlsec1-openssl.so.1:xmlSecOpenSSLKeyDataPbkdf2GetKlass
@@ -617,7 +601,6 @@ libxmlsec1.so.1:xmlSecCryptoAppGetDefaultPwdCallback
 libxmlsec1.so.1:xmlSecCryptoAppInit
 libxmlsec1.so.1:xmlSecCryptoAppKeyCertLoad
 libxmlsec1.so.1:xmlSecCryptoAppKeyCertLoadMemory
-libxmlsec1.so.1:xmlSecCryptoAppKeyLoad
 libxmlsec1.so.1:xmlSecCryptoAppKeyLoadEx
 libxmlsec1.so.1:xmlSecCryptoAppKeyLoadMemory
 libxmlsec1.so.1:xmlSecCryptoAppKeysMngrCertLoad
@@ -763,9 +746,11 @@ libxmlsec1.so.1:xmlSecKeyDataIdListFindByName
 libxmlsec1.so.1:xmlSecKeyDataIdListFindByNode
 libxmlsec1.so.1:xmlSecKeyDataIdListGetKlass
 libxmlsec1.so.1:xmlSecKeyDataIdsGet
+libxmlsec1.so.1:xmlSecKeyDataIdsGetEnabled
 libxmlsec1.so.1:xmlSecKeyDataIdsInit
 libxmlsec1.so.1:xmlSecKeyDataIdsRegister
 libxmlsec1.so.1:xmlSecKeyDataIdsRegisterDefault
+libxmlsec1.so.1:xmlSecKeyDataIdsRegisterDisabled
 libxmlsec1.so.1:xmlSecKeyDataIdsShutdown
 libxmlsec1.so.1:xmlSecKeyDataKeyInfoReferenceGetKlass
 libxmlsec1.so.1:xmlSecKeyDataListGetKlass
@@ -1148,4 +1133,3 @@ libxmlsec1.so.1:xmlSecTransformXsltInitialize
 libxmlsec1.so.1:xmlSecTransformXsltSetDefaultSecurityPrefs
 libxmlsec1.so.1:xmlSecTransformXsltShutdown
 libxmlsec1.so.1:xmlSecX509StoreGetKlass
-libxmlsec1.so.1:xmlSeckeyDataEcGetKlass
