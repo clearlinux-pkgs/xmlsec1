@@ -2,18 +2,14 @@ Configure miss: HTTP support
 Configure miss: HTTP support
 Configure miss: HTTP support
 Configure miss: HTTP support
-Configure miss: gcrypt >= 1.4.0
-Configure miss: gcrypt >= 1.4.0
-Configure miss: gcrypt >= 1.4.0
-Configure miss: gcrypt >= 1.4.0
-Configure miss: libgcrypt11 >= 1.4.0
-Configure miss: libgcrypt11 >= 1.4.0
-Configure miss: libgcrypt11 >= 1.4.0
-Configure miss: libgcrypt11 >= 1.4.0
-Configure miss: libgcrypt20 >= 1.4.0
-Configure miss: libgcrypt20 >= 1.4.0
-Configure miss: libgcrypt20 >= 1.4.0
-Configure miss: libgcrypt20 >= 1.4.0
+Configure miss: development environment
+Configure miss: development environment
+Configure miss: development environment
+Configure miss: development environment
+Configure miss: legacy features support
+Configure miss: legacy features support
+Configure miss: legacy features support
+Configure miss: legacy features support
 Configure miss: libltdl >= 1.0.0
 Configure miss: libltdl >= 1.0.0
 Configure miss: libltdl >= 1.0.0
@@ -30,6 +26,10 @@ Configure miss: mozilla-nss >= 1.4
 Configure miss: mozilla-nss >= 1.4
 Configure miss: mozilla-nss >= 1.4
 Configure miss: mozilla-nss >= 1.4
+Configure miss: mscng
+Configure miss: mscng
+Configure miss: mscng
+Configure miss: mscng
 Configure miss: seamonkey-nspr >= 4.18.0
 Configure miss: seamonkey-nspr >= 4.18.0
 Configure miss: seamonkey-nspr >= 4.18.0
